@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Fan",
+        "id": 1620578975392,
+        "price": 500,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "LED",
+        "id": 1620579019097,
+        "price": 150,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "Iron",
+        "id": 1620579020026,
+        "price": 400,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "Bucket",
+        "id": 1620579020730,
+        "price": 50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "Battery Cell",
+        "id": 1620579021442,
+        "price": 10,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "Switch",
+        "id": 1620579022140,
+        "price": 25,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "Normal Bulb",
+        "id": 1620579023039,
+        "price": 15,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    },
+    {
+        "name": "CFL",
+        "id": 1620579024040,
+        "price": 100,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui."
+    }
+]

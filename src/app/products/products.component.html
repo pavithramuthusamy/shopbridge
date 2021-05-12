@@ -1,0 +1,44 @@
+<div class="container text-center">
+    <h3 class="title" routerLink="/shopbridge" routerLinkActive="active">ShopBridge</h3>
+    <button class="add-row" mat-button (click)="openDialog('Add',{})" mat-flat-button color="primary">Add Row</button>
+
+    <table mat-table [dataSource]="dataSource" #mytable class="my-table mat-elevation-z8">
+
+        <ng-container matColumnDef="id">
+            <th class="col-md-4" mat-header-cell *matHeaderCellDef> ID. </th>
+            <td class="col-md-4 product-column" mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="name">
+            <th class="col-md-4" mat-header-cell *matHeaderCellDef> Name </th>
+            <td class="col-md-4  product-column-detail" style="padding: 10px 0;" mat-cell *matCellDef="let element">
+                <div class="item-cover">
+                    <p class="item-wrapper">Name</p>:<p class="item-detail">{{element.name}}</p>
+                </div>
+                <div class="item-cover">
+                    <p class="item-wrapper">Description</p>:<p class="item-detail">{{element.description}}</p>
+                </div>
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="price">
+            <th class="col-md-4 price-column-detail" mat-header-cell *matHeaderCellDef> Price </th>
+            <td class="col-md-4  product-column price-column-detail" mat-cell *matCellDef="let element">
+                {{element.price}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="action">
+            <th class="col-md-4" mat-header-cell *matHeaderCellDef> Action </th>
+            <td class="col-md-4  product-column" mat-cell *matCellDef="let element" class="action-link">
+                <a class="action" (click)="openDialog('Update',element)">Edit</a>
+                |
+                <a class="action" (click)="openDialog('Delete',element)">Delete</a>
+
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+</div>

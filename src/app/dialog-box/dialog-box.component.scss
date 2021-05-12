@@ -1,0 +1,48 @@
+.dialog-content {
+    height: 230px;
+}
+
+.dialog-content-form {
+    height: 100%;
+}
+
+.form-row {
+    height: 50px;
+    display: grid;
+}
+
+.description-field {
+    height: auto;
+    padding-top: 10px;
+}
+
+.dialog-actions {
+    float: right;
+
+}
+
+.input-group {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+.help-block {
+    color: red;
+    font-size: 14px;
+}
+
+.textarea-group {
+    height: 50px;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group:focus {
+    border-bottom: 2px solid #3f51b5;
+}
+
+.textarea-group:focus {
+    border: 2px solid #3f51b5;
+}

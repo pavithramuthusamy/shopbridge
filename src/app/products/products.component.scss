@@ -1,0 +1,48 @@
+.container {
+    padding: 0vw 3vw;
+}
+
+.title {
+    position: absolute;
+    cursor: pointer;
+}
+
+.add-row {
+    margin: 0.5vw 0;
+    float: right;
+}
+
+.my-table {
+    width: 92vw;
+    height: 90vh;
+}
+
+.product-column {
+    width: 20vw;
+}
+
+.product-column-detail {
+    width: 40vw;
+}
+
+.price-column-detail {
+    text-align: center;
+}
+
+.action {
+    cursor: pointer;
+}
+
+
+div.item-cover {
+    display: flex;
+    align-items: center;
+}
+
+p.item-wrapper {
+    width: 80px
+}
+
+p.item-detail {
+    padding-left: 10px;
+}

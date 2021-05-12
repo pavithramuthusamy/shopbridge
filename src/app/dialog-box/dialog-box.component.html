@@ -1,0 +1,26 @@
+<h1 mat-dialog-title><strong>{{action}} Product</strong> </h1>
+<div class="dialog-content" mat-dialog-content>
+
+    <form class="dialog-content-form" [formGroup]="productListForm" (ngSubmit)="onSubmit()">
+        <div class="form-row"><label>Name</label>
+            <input class="input-group" type="text" name="name" placeholder="" formControlName="name">
+            <br />
+        </div>
+        <div class="form-row description-field"><label>Description</label>
+            <textarea class="textarea-group" name="description" placeholder="" formControlName="description"></textarea>
+            <br />
+        </div>
+        <div class="form-row"><label>Price</label>
+            <input class="input-group" type="number" name="price" placeholder="" formControlName="price">
+            <br />
+        </div>
+        <span *ngIf="!isValid" class="help-block">*All fields are required</span>
+    </form>
+    <ng-template #elseTemplate>
+        Sure to delete <b>{{local_data.name}}</b>?
+    </ng-template>
+</div>
+<div class="dialog-actions" mat-dialog-actions>
+    <button color="primary" mat-button (click)="doAction()" mat-flat-button>{{action}}</button>
+    <button mat-button (click)="closeDialog()" mat-flat-button color="warn">Cancel</button>
+</div>
